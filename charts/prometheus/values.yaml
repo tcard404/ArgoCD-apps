@@ -1,0 +1,20 @@
+server:
+  persistentVolume:
+    enabled: true
+    size: 8Gi
+  resources:
+    requests:
+      memory: "512Mi"
+      cpu: "500m"
+    limits:
+      memory: "1Gi"
+      cpu: "1"
+
+alertmanager:
+  enabled: true
+
+pushgateway:
+  enabled: false
+
+nodeExporter:
+  enabled: true
