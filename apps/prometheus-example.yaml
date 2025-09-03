@@ -15,7 +15,7 @@ spec:
     helm:
       releaseName: prometheus-example
       valueFiles:
-        - https://raw.githubusercontent.com/tcard404/ArgoCD-apps/charts/prometheus/values.yaml
+        - https://raw.githubusercontent.com/tcard404/ArgoCD-apps/main/charts/prometheus/values.yaml
   syncPolicy:
     automated:
       prune: true
