@@ -1,2 +1,9 @@
 crds:
   enabled: false
+
+prometheus:
+  prometheusSpec:
+    resources:
+      requests:
+        memory: "400Mi"
+        cpu: "200m"
